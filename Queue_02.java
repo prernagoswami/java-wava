@@ -24,7 +24,7 @@ public class Queue_02{
       //  System.out.println(q.peek());
 
         q.poll(); //removes the last elemtn of the queue also 
-      //  poll peek offer doesnt cause exception like stack
+      //  poll peek offer doesn't cause exception like stack
 
         System.out.println(q.isEmpty());
         System.out.println(q.size()); // checks size 
