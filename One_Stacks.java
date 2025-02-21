@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class Stacks_01{
+public class One_Stacks{
     public static void main(String[] args) {
 
         // stack = LIFO data struc.

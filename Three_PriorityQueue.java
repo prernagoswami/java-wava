@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PriorityQueue_03{
+public class Three_PriorityQueue{
     public static void main(String[] args) {
         
         // Priority Queue = A FIFO data structure that servers elemnents

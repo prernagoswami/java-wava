@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class Singly_LL_04 {
+public class Four_Singly_LL {
     public static void main(String[] args){
 
         // Linked List(Singly) = Stores Node in 2 parts (data+address)
-        //                       Nodes are in non-consecutive memeory locations
-        //                       Elemnts are linked using pointers
+        //                       Nodes are in non-consecutive memory locations
+        //                       Elements are linked using pointers
         
         //                                            Singly Linked List
         //                             Node                 Node                 Node
@@ -16,8 +16,8 @@ public class Singly_LL_04 {
         //                        [address | data | address] <->  [address | data | address]  
         
         //                         Advantages?
-        //                         1. Dynamic Data Structure (allocates neede memmory while running)
-        //                         2. Insertion and Deletion of Nodes in easy. O(1).
+        //                         1. Dynamic Data Structure (allocates needed memmory while running)
+        //                         2. Insertion and Deletion of Nodes is easy. O(1).
         //                         3. No/Low memory waste.
 
         //                         Disadvantages?
@@ -39,7 +39,7 @@ public class Singly_LL_04 {
         linkedlist.offer("C");
         linkedlist.offer("D");
         linkedlist.offer("F");
-        // linkedlist.polll();
+        // linkedlist.poll();
 
         linkedlist.add(4 ,"E");
         linkedlist.remove("E");
@@ -52,6 +52,9 @@ public class Singly_LL_04 {
         linkedlist.addLast("G"); // To add element at the tail
         String first = linkedlist.removeFirst();
         String last = linkedlist.removeLast();
+
+        System.out.println(first);
+        System.out.println(last);
 
         System.out.println(linkedlist);
 
