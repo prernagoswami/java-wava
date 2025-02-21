@@ -1,7 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class Two_Queue{
+public class Java2_Queue{
 
      public static void main(String[] args) {
         // **************************************************************************

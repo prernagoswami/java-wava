@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Four_Singly_LL {
+public class Java4_Singly_LL {
     public static void main(String[] args){
 
         // Linked List(Singly) = Stores Node in 2 parts (data+address)
