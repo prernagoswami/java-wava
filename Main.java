@@ -8,9 +8,13 @@ public class Main {
          dynamic.add("B");
          dynamic.add("C");
 
+        //  dynamic.insert(0, "X");
+        //  dynamic.delete("A");
+        //  System.out.println(dynamic.search("C"));
+
          System.out.println(dynamic);
-         System.out.println(dynamic.size);
-         System.out.println(dynamic.capacity);
+         System.out.println("Size = " + dynamic.size);
+         System.out.println("Capacity = " + dynamic.capacity);
          System.out.println(dynamic.isEmpty());
 
     }
